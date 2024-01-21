@@ -6,10 +6,6 @@ const font = Poppins({
 	weight: ['200', '300', '400', '500', '600', '700', '800'],
 	subsets: ['latin'],
 });
-
-{
-	console.log(font.className);
-}
 export const Logo = () => {
 	return (
 		<div className="flex flex-col items-center gap-y-4">

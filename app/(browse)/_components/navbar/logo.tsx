@@ -8,9 +8,6 @@ const font = Poppins({
 	subsets: ['latin'],
 });
 
-{
-	console.log(font.className);
-}
 export const Logo = () => {
 	return (
 		<Link href={'/'}>
